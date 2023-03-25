@@ -10,5 +10,5 @@ func main() {
 	fmt.Scan(&dias)
 	fmt.Println("Qual o valor da sua diária?")
 	fmt.Scan(&valor)
-	
+	fmt.Println("Então o seu salário foi", valor*dias)
 }
